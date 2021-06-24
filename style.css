@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: rgb(196, 99, 82);
+    //background-color: white;
+}
+.gameTitle{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 5rem;
+    text-shadow: 2px 3px rgb(145, 77, 66);
+    text-align: center;
+    color: rgb(148, 13, 36);
+}
+.yourBet{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    color: rgb(148, 13, 36);
+    font-weight: bold;
+}
+.yourBet label{
+    font-size: 1.2rem;
+    color: rgb(155, 25, 47);
+    margin-right: 3rem;
+}
+.dice{
+    text-align: center;
+}
+.dice img{
+   padding: 2rem;
+   height: 13rem;
+}
+.playButton{
+    text-align: center;
+}
+.button{
+    background-color: rgb(148, 9, 9);
+    border: none;
+    box-shadow: 2px 2px rgb(128, 80, 80);
+    border-radius: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    padding: 15px 100px;
+    color: white;
+    text-shadow: -1px 1px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(107, 9, 9);
+}
+.results{
+    height: 250px;
+    width: 250px;
+    position: fixed;
+    left: 28rem;
+    top: 12rem;
+}
+.winner{
+    height: 280px;
+}
